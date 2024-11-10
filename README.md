@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple Java-based project which aims to build a streamlined, user-friendly Online Learning Management System (LMS) tailored to the needs of small institutions and individual instructors. The project demonstrates how to set up a website of the same while using JDBC for the necessary database connectivity. 
+This is a simple Java-based project which aims to build a streamlined, user-friendly Learning Management System (LMS) tailored to the needs of small institutions and individual instructors. The project demonstrates how to set up a website of the same while using JDBC for the necessary database connectivity. 
 
 ---
 
