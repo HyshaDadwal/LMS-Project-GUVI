@@ -1,9 +1,13 @@
 # Learning Management System
 
 ## Introduction
+
 This is a simple Java-based project which aims to build a streamlined, user-friendly Online Learning Management System (LMS) tailored to the needs of small institutions and individual instructors. The project demonstrates how to set up a website of the same while using JDBC for the necessary database connectivity. 
 
+---
+
 ## Table of Contents
+
 1. [Requirements](#requirements)
 2. [Project Setup](#project-setup)
 3. [Database Setup](#database-setup)
@@ -11,6 +15,8 @@ This is a simple Java-based project which aims to build a streamlined, user-frie
 5. [How to Run](#how-to-run)
 6. [Future Improvements](#future-improvements)
 7. [Troubleshooting](#troubleshooting)
+
+---
 
 ## Requirements
 To run this project, you'll need:
@@ -20,19 +26,44 @@ To run this project, you'll need:
 3. Java IDE (such as IntelliJ, Eclipse, or NetBeans)
 
 ## Project Setup
-1. Clone the Repository
+
+1. **Clone the Repository**
+
+   ```bash
    git clone https://github.com/yourusername/BankManagementSystem.git
    cd BankManagementSystem
-   
-2. Set Up JDK
-   Install the JDK following the instructions on the Oracle website.
-   Configure the JDK path in your IDE:
-      In IntelliJ IDEA: Go to File > Project Structure > Project SDK and set it to your JDK location.
-      In Eclipse: Go to Window > Preferences > Java > Installed JREs and add the JDK location if needed.
-   
-3. Open Project in IDE
-      Open the project folder in your chosen IDE.
+   ```
 
+2. **Set Up JDK**
+
+   - Install the JDK following the instructions on the Oracle website.
+   - Configure the JDK path in your IDE:
+     - In **IntelliJ IDEA**: Go to `File > Project Structure > Project SDK` and set it to your JDK location.
+     - In **Eclipse**: Go to `Window > Preferences > Java > Installed JREs` and add the JDK location if needed.
+
+3. **Open Project in IDE**
+
+   - Open the project folder in your chosen IDE.
+
+---
+
+## Database Setup
+
+### Step 1: Install and Configure MySQL
+
+- Download and install MySQL from [here](https://dev.mysql.com/downloads/installer/).
+- Set up a root user with a secure password.
+- Open the MySQL command line or use a GUI like **MySQL Workbench**.
+
+### Step 2: Create the Database and Tables
+
+1. **Login to MySQL**:
+
+   ```bash
+   mysql -u root -p
+   ```
+
+2. **Run the SQL Commands to Create Database and Tables**:
 
 
 
