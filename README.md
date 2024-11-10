@@ -4,7 +4,7 @@
 This is a simple Java-based project which aims to build a streamlined, user-friendly Online Learning Management System (LMS) tailored to the needs of small institutions and individual instructors. The project demonstrates how to set up a website of the same while using JDBC for the necessary database connectivity. 
 
 ## Table of Contents
-1. Requirements
+1. [Requirements](#requirements)
 2. Project Setup
 3. Database Setup
 4. Project Structure
@@ -15,9 +15,9 @@ This is a simple Java-based project which aims to build a streamlined, user-frie
 ## Requirements
 To run this project, you'll need:
 
-Java Development Kit (JDK) 8 or later - Download here
-MySQL Database Server - Download here
-Java IDE (such as IntelliJ, Eclipse, or NetBeans)
+1. Java Development Kit (JDK) 8 or later - [Download here] (https://www.oracle.com/in/java/technologies/downloads/)
+2. MySQL Database Server - [Download here] (https://www.mysql.com/downloads/)
+3. Java IDE (such as IntelliJ, Eclipse, or NetBeans)
 
 ## Key Features
 - **User Management**: Admins can create, update, and delete user accounts.
