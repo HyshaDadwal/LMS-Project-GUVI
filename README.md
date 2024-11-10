@@ -5,12 +5,12 @@ This is a simple Java-based project which aims to build a streamlined, user-frie
 
 ## Table of Contents
 1. [Requirements](#requirements)
-2. Project Setup
-3. Database Setup
-4. Project Structure
-5. How to Run
-6. Future Improvements
-7. Troubleshooting
+2. [Project Setup](#project-setup)
+3. [Database Setup](#database-setup)
+4. [Project Structure](#project-structure)
+5. [How to Run](#how-to-run)
+6. [Future Improvements](#future-improvements)
+7. [Troubleshooting](#troubleshooting)
 
 ## Requirements
 To run this project, you'll need:
@@ -19,7 +19,28 @@ To run this project, you'll need:
 2. MySQL Database Server - [Download here](https://www.mysql.com/downloads/)
 3. Java IDE (such as IntelliJ, Eclipse, or NetBeans)
 
-## Key Features
+## Project Setup
+1. Clone the Repository
+   git clone https://github.com/yourusername/BankManagementSystem.git
+   cd BankManagementSystem
+   
+2. Set Up JDK
+   Install the JDK following the instructions on the Oracle website.
+   Configure the JDK path in your IDE:
+      In IntelliJ IDEA: Go to File > Project Structure > Project SDK and set it to your JDK location.
+      In Eclipse: Go to Window > Preferences > Java > Installed JREs and add the JDK location if needed.
+   
+3. Open Project in IDE
+      Open the project folder in your chosen IDE.
+
+
+
+
+
+
+
+
+
 - **User Management**: Admins can create, update, and delete user accounts.
 - **Course Management**: Instructors can easily create and manage their courses.
 - **Enrollment Management**: Students can enroll in available courses.
