@@ -68,9 +68,34 @@ To run this project, you'll need:
 
 2. **Run the SQL Commands to Create Database and Tables**:
 
+   ```sql
+   CREATE DATABASE LearningDB;
 
+   USELearningDB;
 
+   CREATE TABLE Student (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       name VARCHAR(100) NOT NULL,
+       email VARCHAR(100) UNIQUE NOT NULL,
+       phone VARCHAR(15) NOT NULL,
+       program VARCHAR(100) NOT NULL,
+       year INT(50) NOT NULL
+   );
 
+   CREATE TABLE Instructor (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       name VARCHAR(100) NOT NULL,
+       email VARCHAR(100) UNIQUE NOT NULL,
+       phone VARCHAR(15) NOT NULL,
+       department VARCHAR(100)
+   );
+
+   CREATE TABLE Administrator (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       name VARCHAR(100) NOT NULL
+   );
+   ```
+   
 ### Step 3: Update Database Credentials
 
 - In the `src/utils/DatabaseConnection.java` file, update the database credentials with your MySQL username and password.
