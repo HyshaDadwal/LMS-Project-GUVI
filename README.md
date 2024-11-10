@@ -33,8 +33,8 @@ To run this project, you'll need:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/BankManagementSystem.git
-   cd BankManagementSystem
+   git clone https://github.com/yourusername/LearningManagementSystem.git
+   cd LearningManagementSystem
    ```
 
 2. **Set Up JDK**
