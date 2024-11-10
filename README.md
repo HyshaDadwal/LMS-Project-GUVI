@@ -15,8 +15,8 @@ This is a simple Java-based project which aims to build a streamlined, user-frie
 ## Requirements
 To run this project, you'll need:
 
-1. Java Development Kit (JDK) 8 or later - [Download here] (https://www.oracle.com/in/java/technologies/downloads/)
-2. MySQL Database Server - [Download here] (https://www.mysql.com/downloads/)
+1. Java Development Kit (JDK) 8 or later - [Download here](https://www.oracle.com/in/java/technologies/downloads/)
+2. MySQL Database Server - [Download here](https://www.mysql.com/downloads/)
 3. Java IDE (such as IntelliJ, Eclipse, or NetBeans)
 
 ## Key Features
