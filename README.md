@@ -19,11 +19,14 @@ This is a simple Java-based project which aims to build a streamlined, user-frie
 ---
 
 ## Requirements
+
 To run this project, you'll need:
 
-1. Java Development Kit (JDK) 8 or later - [Download here](https://www.oracle.com/in/java/technologies/downloads/)
-2. MySQL Database Server - [Download here](https://www.mysql.com/downloads/)
-3. Java IDE (such as IntelliJ, Eclipse, or NetBeans)
+- **Java Development Kit (JDK) 8 or later** - [Download here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- **MySQL Database Server** - [Download here](https://dev.mysql.com/downloads/installer/)
+- **Java IDE** (such as IntelliJ, Eclipse, or NetBeans)
+
+---
 
 ## Project Setup
 
@@ -68,45 +71,72 @@ To run this project, you'll need:
 
 
 
+### Step 3: Update Database Credentials
 
+- In the `src/utils/DatabaseConnection.java` file, update the database credentials with your MySQL username and password.
 
+  ```java
+  private static final String URL = "jdbc:mysql://localhost:3306/LearningDB";
+  private static final String USER = "your_mysql_username";
+  private static final String PASSWORD = "your_mysql_password";
+  ```
 
+---
 
-- **User Management**: Admins can create, update, and delete user accounts.
-- **Course Management**: Instructors can easily create and manage their courses.
-- **Enrollment Management**: Students can enroll in available courses.
-- **Intuitive Interface**: Simple navigation and minimal design to avoid unnecessary complexity.
+## Project Structure
 
-## Target Users
-- **Administrators**: Manage users and oversee system operations.
-- **Instructors**: Create and manage courses.
-- **Students**: Enroll in and track their courses.
+Here's a quick overview of the project structure:
 
-## Technical Stack
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Java with JDBC (Java Database Connector) for MySQL integration
-- **Database**: MySQL
-- **Development Tools**: Visual Studio Code (IDE), Git (Version Control)
+```
+LearningManagementSystem/
+├── src/
+│   ├── dao/               # Contains DAO classes for data access operations
+│   ├── models/            # Contains data models like User, Course, Attendance, etc.
+│   ├── services/          # Contains service classes for user operations
+│   ├── utils/             # Contains utility classes, like DatabaseConnection
+│   └── LearningManagementSystem.java  # Main class to run the application
+└── README.md
+```
 
-## Current Status
-The initial development includes:
-- **Login Page Prototype**: Created using HTML, CSS, and JavaScript as a foundational framework, stored in the project’s GitHub repository.
-- **Database Setup**: MySQL database setup has been initiated.
-- **Site Flowchart**: A functional flowchart outlines the site's navigation for each user type (Admin, Instructor, Student).
+---
 
-## Future Plans
-We plan to expand the system with additional features based on user feedback and project requirements. These may include enhanced course management tools, performance tracking, and expanded user settings.
+## How to Run
 
-## Project Members and Contributions
-- **Hysha Singh Dadwal**: Database management, presentation creation
-- **Mehak Rana**: Webpage design, programming
-- **Vived Singh**: Website styling, feature design
-- **Yuvika Pundir**: Project management, team coordination
+1. **Compile and Run the Main Class**
 
-## Repository Link
-[GitHub Repository for LMS Project](https://github.com/HyshaDadwal/LMS-Project-GUVI.git)
+   - In your IDE, navigate to the `LearningManagementSystem.java` file, right-click, and select `Run`.
+   - Alternatively, you can use the command line:
+   
+     ```bash
+     javac src/LearningManagementSystem.java
+     java -cp src LearningManagementSystem
+     ```
+---
 
-## Getting Started
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/HyshaDadwal/LMS-Project-GUVI.git
+## Future Improvements
+
+This project is designed for learning and demonstration. Here are some suggested improvements which can be applied in the future:
+
+- Add more functionalities for every user.
+- Implement more sophisticated error handling.
+- Create a user interface (UI) for easier interaction.
+- Expand the database to support additional details.
+
+---
+
+## Troubleshooting
+
+- **Database Connection Issues**: Ensure your MySQL server is running, and check your credentials in `DatabaseConnection.java`.
+- **Class Not Found Errors**: Confirm that your JDK is correctly set up in your IDE.
+- **SQL Errors**: Double-check your SQL syntax and ensure the database schema matches the code.
+
+---
+
+## License
+
+This project is open-source and can be modified as needed.
+
+---
+
+Thank you!
+```
