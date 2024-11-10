@@ -1,14 +1,23 @@
-# LMS-Project-GUVI
-Repository for the Online LMS Project for GUVI in semester 3
+# Learning Management System
 
-## Project Overview
-This project aims to build a streamlined, user-friendly Online Learning Management System (LMS) tailored to the needs of small institutions and individual instructors. Unlike many existing LMS platforms that tend to be overly complex, this LMS focuses on essential features, providing a simplified experience for administrators, instructors, and students.
+## Introduction
+This is a simple Java-based project which aims to build a streamlined, user-friendly Online Learning Management System (LMS) tailored to the needs of small institutions and individual instructors. The project demonstrates how to set up a website of the same while using JDBC for the necessary database connectivity. 
 
-## Problem Statement
-Existing LMS solutions often have excessive features that make them difficult to navigate, especially for smaller institutions. This LMS is designed to be straightforward and accessible, with a primary focus on user management, course management, and easy enrollment.
+## Table of Contents
+1. Requirements
+2. Project Setup
+3. Database Setup
+4. Project Structure
+5. How to Run
+6. Future Improvements
+7. Troubleshooting
 
-## Solution
-Our LMS addresses this challenge by offering only core functionalities within a simple, text-based interface. This approach minimizes the learning curve and enhances usability for all types of users, ensuring a seamless experience in managing courses and enrollments.
+## Requirements
+To run this project, you'll need:
+
+Java Development Kit (JDK) 8 or later - Download here
+MySQL Database Server - Download here
+Java IDE (such as IntelliJ, Eclipse, or NetBeans)
 
 ## Key Features
 - **User Management**: Admins can create, update, and delete user accounts.
